@@ -1,0 +1,58 @@
+body {
+    background-color:blueviolet
+}
+
+.icon-left {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: -8%;
+    background-color: grey;
+    border: 0.2rem solid rgb(168, 26, 156);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 900px) {
+    .icon-left {
+        position:absolute;
+        top: 50%;
+        left: -2.5%;
+    }
+}
+
+.icon-right {
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: -8%;
+    background-color: grey;
+    border: 0.2rem solid rgb(168, 26, 156);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 900px) {
+    .icon-right {
+        position:absolute;
+        top: 50%;
+        right: -2.5%;
+    }
+}
+
+.image-container {
+    width: 60%;
+    height: 70vh;
+    background: url("images/slider11.jpg") no-repeat center/contain;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+    margin: 6rem auto;
+    outline: 0.5rem solid white;
+    border-radius: 0.5rem;
+    position: relative;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.6);
+
+}
